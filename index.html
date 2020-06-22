@@ -3,18 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDo List</title>
+    <title>To-Do List</title>
     <link rel="shortcut icon" href="Assets/download.webp" type="image/x-icon">
-    <link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet"  href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 <body>
-<h1 id="head">Rameshh1>
-
-
-
-
+<div id="outer">
+  <!-- outer div -->
+  <div id="main" >
+    <!-- header div -->
+    <h2 style="color: white;">To-Do List</h2>
+    <!-- heading -->
+    <input type="text" id="adder" placeholder="Add a task">
+    <!-- input field -->
+    <button id="button"><strong>ADD</strong></button>
+    <!-- ADD button -->
+  </div>
     
+  <div id="listsection">
+
+    <ul id="list" liststyle:none>
+<!-- item will be added here -->
+
+    </ul>
+    <div style="background-color: lightgrey; padding: 10px;" id="count">
+    Task Count:0
+    
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
 <script src="script.js"></script>
 </body>
 </html>

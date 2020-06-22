@@ -1,3 +1,96 @@
-h1{
-    color: green;
+/* outer div flex enable */
+#outer{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+/* CSS for ADD button */
+#button{
+    background-color:gray;
+    margin-left: -25px;
+    color: white;
+    cursor: pointer;
+     border: none;
+     outline: none;
+padding: 10px;
+}
+#button:hover{
+
+   color: white;
+   background-color: black ;
+}
+
+/* CSS for text input field */
+input{
+   border: none;
+    padding: 10px;
+    width: 75%;
+}
+input:focus{
+    outline: none;
+
+}
+
+/* head section */
+
+#main{
+    background-color:black;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    border: solid;
+
+    
+}
+
+/* list Section */
+#listsection{
+align-content: center;
+width:340px;
+border: solid;
+border-color: lightgray;
+
+}
+
+/* 
+each list item 
+
+*/
+
+li{
+   border: none;
+   padding: 10px;
+   
+    background-color: gray;
+    list-style-type: none;
+    margin: -2px;
+    cursor: pointer;
+
+}
+
+ul li:nth-child(odd) {
+    background: lightgray;
+  }
+
+
+ul{
+
+    margin: 0;
+    padding: 0;
+}
+
+/* on delete item of list */
+
+.close{
+    float: right;
+    /* background-color:white; */
+
+    color: black;
+    cursor: pointer;
+
+}
+.close:hover{
+    color: red;
 }
